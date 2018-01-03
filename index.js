@@ -16,7 +16,7 @@ bot.on("ready",function(){
 bot.on("message",function(message)
 {    console.log(message.content);
     if (message.author.equals(bot.user)) return;
-    if(message.content == "hello" || message.content == "Hello" || message.content == (bot.user.toString()) + "hello")
+    if(message.content == "hello" || message.content == "Hello" || message.content == "@" + (bot.user.toString()) + "hello")
       message.channel.sendMessage(message.author.toString() + " hi..there");
     if(!message.content.startsWith(prefix)) return;
    
