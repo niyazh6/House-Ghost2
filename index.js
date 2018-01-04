@@ -13,6 +13,12 @@ bot.on("ready",function(){
     console.log("ready");
 })
 
+bot.on("GuildMemberadd", function(member)
+{
+    member.guild.channels.find("name", "founders").sendMessage(member.toString + "Welcome to the discord channel of our Clan ---Vengeful Revenants---");
+
+});
+
 bot.on("message",function(message)
 {    console.log(message.content);
     if (message.author.equals(bot.user)) return;
