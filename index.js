@@ -16,7 +16,7 @@ bot.on("ready",function(){
     console.log("ready");
 })
 bot.on("guildMemberAdd", function(member) {
-    member.guild.channels.find("name", "founders").sendMessage(member.toString() + "Welcome to the discord channel of our Clan..We are currently working on making this server better..Thanks for your patience.");
+    member.guild.channels.find("name", "welcome").sendMessage(member.toString() + "Welcome to the discord channel of our Clan..We are currently working on making this server better..Thanks for your patience.");
     member.addRole(member.guild.roles.find("name", "newrole"));
 });
     /*member.guild.createRole(    {
