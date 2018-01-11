@@ -1,7 +1,7 @@
 
 const Discord =require("discord.js");
 const TOKEN ="Mzk3MDI5OTcxNzk4OTE3MTMw.DSqCmg.kM2ZW447KkmNTLinUTMa4bkMJ-s";
-const prefix = "!";
+const prefix = "-";
 var rtd = [
     "yes",
     "no",
