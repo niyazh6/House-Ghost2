@@ -41,7 +41,7 @@ bot.on("message",function(message)
             message.channel.sendMessage(message.author.toString() + " pong");
         break;    
         case "info" :
-            message.channel.sendMessage(message.author.toString() + " I am a bot created by wolfie for this server");
+            message.channel.sendMessage(message.author.toString() + " I am a bot created by wolfie to serve this...ahem.. server :) ");
         break;
         case "roll":
             if (args[1]) { 
